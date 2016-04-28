@@ -6,16 +6,20 @@ myApp.controller('MyController', function MyController($scope) {
 
 //ui-router
 myApp.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise("/about");
+  $urlRouterProvider.otherwise("/frontpage");
   
   $stateProvider
+        .state('frontpage', {
+          url: "/frontpage",
+          templateUrl: "partials/frontpage.html"
+        })
     
       .state('about', {
       url: "/about",
       templateUrl: "partials/about.html"
     })
       
-      .state('bicyclecounter', {
+      .state('education', {
       url: "/education",
       templateUrl: "partials/education.html"
     }) 

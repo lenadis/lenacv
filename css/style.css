@@ -48,6 +48,10 @@ p, a, img, div {
     font-family: 'Source Serif Pro', serif;
     color: dimgray;
 }
+
+p a {
+    color: pink;
+}
 a:visited {
     color: dimgray;
 }
@@ -55,13 +59,26 @@ a:hover {
     color: darkseagreen;
     text-decoration: none;
 }
+p a {
+    color: darkgreen;
+}
+p a:visited {
+    color: darkseagreen;
+}
 
 .top4emld {
     margin-top: 4em;
 }
 
+.bottom2emld {
+    margin-bottom: 2em;
+}
+
 .paddingtop1em {
     padding-top: 1em;
+}
+.paddingtop1plusem {
+    padding-top: 1.5em;
 }
 
 /*THis is the timeline*/
