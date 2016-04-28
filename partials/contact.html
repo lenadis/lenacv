@@ -1,0 +1,76 @@
+<div class="row top4emld">
+    <div class="bordertopld text-center col-xs-12">
+        <h3>Find me on these platforms</h3>
+    </div>
+</div>
+<div class="row bordertopld">
+    <div class="text-center col-xs-4 borderrightld  paddingtop1em">
+        <a href="https://www.facebook.com/lenadis" class="hvr-pulse">
+        <i class="fa fa-facebook fa-5x" aria-hidden="true"></i>
+        <h4>facebook</h4>
+        </a>
+    </div>
+    <div class=" text-center col-xs-4 borderrightld paddingtop1em">
+        <a href="https://www.instagram.com/lenadisr/" class="hvr-pulse">
+        <i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+        <h4>instagram</h4>
+        </a>
+    </div>
+    <div class="text-center col-xs-4 paddingtop1em">
+        <a href="https://www.dk.linkedin.com/in/lenadisr" class="hvr-pulse">
+        <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+        <h4>linkedin</h4>
+        </a>
+    </div>
+</div>
+<div class="row bordertopld borderbottomld">
+    <div class="text-center col-xs-4 borderrightld paddingtop1em">
+        <a href="https://www.snapchat.com/add/lenadisr" class="hvr-pulse">
+        <i class="fa fa-snapchat-ghost fa-5x" aria-hidden="true"></i>
+        <h4>snapchat</h4>
+        </a>
+    </div>
+    <div class=" text-center col-xs-4 borderrightld  paddingtop1em">
+        <a href="https://twitter.com/lenadisr" class="hvr-pulse">
+        <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+        <h4>twitter</h4>
+        </a>
+    </div>
+    <div class="text-center col-xs-4  paddingtop1em">
+        <a href="https://dk.pinterest.com/lenadisr/" class="hvr-pulse">
+        <i class="fa fa-pinterest-p fa-5x" aria-hidden="true"></i>
+        <h4>pinterest</h4>
+        </a>
+    </div>
+</div>
+
+<div class="row top4emld">
+    <form name="myform" novalidate>
+        <h4>Please send me an email if you have any question or you just have something you want to get off your chest.</h4>
+
+        <fieldset>
+            <div class="form-group" ng-class="{'has-error': myform.firstname.$invalid && myform.firstname.$touched, 'has-success': myform.firstname.$valid}">
+            <input class="form-control" type="text" name="firstname" placeholder="First Name"
+                   ng-model="user.firstname" 
+                   ng-required="true"
+                   >
+            <p ng-show="myform.firstname.$invalid && myform.firstname.$touched">You must fill out your first name.</p>
+            </div>
+
+            <div class="form-group">
+                <input  class="form-control"  type="email" name="email" placeholder="Email" 
+                   ng-model="user.email">
+
+                <p ng-show="myform.email.$invalid && myform.email.$touched">Please enter a valid email.</p>
+            </div>
+
+            <div class="form-group" ng-class="{'has-error': myform.contacttext.$invalid && myform.contacttext.$touched , 'has-success': myform.contacttext.$valid}">
+            <input class="form-control" type="text" name="contacttext" placeholder="Your message."
+                   ng-model="user.contacttext"
+                   ng-required="true">
+            <p ng-show="myform.contacttext.$invalid && myform.contacttext.$touched">Please enter a message.</p>
+            </div>
+            <button type="submit" class="btn hvr-grow">Submit</button>
+        </fieldset>
+    </form>
+</div>
