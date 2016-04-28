@@ -8,9 +8,10 @@ a.navld {
     font-weight: 300;
     font-size: 1.4em;
     color: dimgray;
-    margin-left: 0.6em;
-    margin-right: 0.6em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
+
 
 .navbarld {
     margin-top: 5em;
@@ -68,6 +69,10 @@ p a:visited {
 
 .top4emld {
     margin-top: 4em;
+}
+
+.top2emld {
+    margin-top: 2.7em;
 }
 
 .bottom2emld {
