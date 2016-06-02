@@ -85,6 +85,9 @@ p a:visited {
 .paddingtop1plusem {
     padding-top: 1.5em;
 }
+.margintopminusld {
+    margin-top: -100px;
+}
 
 /*THis is the timeline*/
 .timeline {
