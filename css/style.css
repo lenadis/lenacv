@@ -1,9 +1,9 @@
 .outlined {
-    border: 1px solid dimgray; 
+    border: 1px solid dimgray;
 }
 
 a.navld {
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1.4em;
@@ -37,12 +37,12 @@ a.nameld {
     border-right: 1px solid rgba(49,49,49,0.1);
 }
 
-h1, h2, h3, h4, h5, input, span {  
-    font-family: 'Josefin Sans', sans-serif; 
+h1, h2, h3, h4, h5, input, span {
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     color: dimgray;
-    
+
 }
 
 p, a, img, div {
@@ -115,7 +115,7 @@ p a:visited {
   background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
   background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
   background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-  
+
   z-index: 5;
 }
 
@@ -147,17 +147,17 @@ p a:visited {
 .flag-wrapper {
   position: relative;
   display: inline-block;
-  
+
   text-align: center;
 }
 
 .flag {
   position: relative;
   display: inline;
-  
+
   padding: 6px 10px;
   border-radius: 5px;
-  
+
   font-weight: 300;
   text-align: left;
 }
@@ -185,16 +185,16 @@ p a:visited {
 }
 
 .direction-l .flag:after {
-  
+
 }
 
 .direction-r .flag:after {
-  
+
 }
 
 .time-wrapper {
   display: inline;
-  
+
   line-height: 1em;
   font-size: 0.66666em;
   color: rgb(46,139,87);
@@ -220,7 +220,7 @@ p a:visited {
 
 .desc {
   margin: 1em 0.75em 0 0;
-  
+
   font-size: 0.77777em;
   line-height: 1.5em;
 }
@@ -230,7 +230,7 @@ p a:visited {
 }
 
 .flag a {
- font-family: 'Josefin Sans', sans-serif; 
+ font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1.4em;
@@ -288,7 +288,7 @@ p a:visited {
 
 .direction-l .flag:after,
 .direction-r .flag:after {
-	
+
 }
 
 .time-wrapper {
@@ -311,7 +311,7 @@ p a:visited {
 	margin: 1em 0 0 0;
 	padding: 1em;
 	background: rgb(250,250,250);
-	
+
   z-index: 15;
 }
 
@@ -320,7 +320,7 @@ p a:visited {
 	position: relative;
 	margin: 1em 1em 0 1em;
 	padding: 1em;
-	
+
   z-index: 15;
 }
 
